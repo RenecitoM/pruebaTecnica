@@ -1,50 +1,33 @@
-<template>
-    <header class="header">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="logo-left">
-                    <v-container fluid>
-                        <img src="./assets/Logo.png" alt="">
-                    </v-container>
-                </div>
-                <nav class="nav">
-                    <div class="nav-item mx-3">FOREX</div>
-                    <div class="nav-item mx-3">STOCKS</div>
-                    <div class="nav-item mx-3">FUTURES</div>
-                    <div class="nav-item mx-3">TradeGATEHub</div>
-                </nav>
-                <div class="d-flex align-items-end">
-                    <div class="login p-2 ml-auto">Log in</div>
-                    <div class="contact p-2">Contact us</div>
-                </div>
-            </div>
-        </div>
-    </header>
-</template>
-
-
-<style scoped>
-@font-face {
-    font-family: "Noto Sans";
-    src: url("Noto_Sans/NotoSans-Black.ttf");
-}
-
 
 .header {
     background-color: #181F29;
     color: #fff;
-    background: #181F29; 
-    transition: background 0.5s;
-    position: relative; 
 }
-
 
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     margin: 0;
     padding: 10px 20px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+
+.nav-item {
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.right-options {
+    display: flex;
+    align-items: right;
+    width: "20%"
 }
 
 .language {
@@ -60,15 +43,10 @@
 
 .logo-left {
     margin: 1%;
-    margin-right: 10%;
-}
-
-.login, .contact { 
-    margin-right: 20px;
-    cursor: pointer;
 }
 
 :root {
+
     ---c1c3c9: #C1C3C9;
     ---e2e2e2: #E2E2E2;
     ---6e7079: #6E7079;
@@ -93,15 +71,37 @@
     --unnamed-line-spacing-45: 45px;
     --unnamed-line-spacing-64: 64px;
 }
+
+.p1 {
+    font-family: var(--unnamed-font-family-noto-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-300);
+    font-size: var(--unnamed-font-size-32);
+    line-height: var(--unnamed-line-spacing-43);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---363636);
+}
+
+.p2 {
+    font-family: var(--unnamed-font-family-noto-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-25);
+    line-height: var(--unnamed-line-spacing-36);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---363636);
+}
+
 .h2 {
     font-family: var(--unnamed-font-family-noto-sans);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-900);
-    font-size: 17px;
+    font-size: var(--unnamed-font-size-30);
     line-height: var(--unnamed-line-spacing-45);
     letter-spacing: var(--unnamed-character-spacing-0);
-    color: #fff
+    color: var(---363636);
 }
+
 .h1 {
     font-family: var(--unnamed-font-family-noto-sans);
     font-style: var(--unnamed-font-style-normal);
@@ -111,4 +111,3 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(---363636);
 }
-</style>
