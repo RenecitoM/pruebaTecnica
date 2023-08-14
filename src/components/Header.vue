@@ -1,0 +1,135 @@
+<template>
+    <header class="header">
+        <div class="container">
+            <div class="logo-left">
+                <v-container fluid>
+                    <img src="./assets/Logo.png" alt="">
+                </v-container>
+            </div>
+            <nav class="nav">
+                <div class="nav-item">FOREX</div>
+                <div class="nav-item">STOCKS</div>
+                <div class="nav-item">FUTURES</div>
+                <div class="nav-item">TradeGATEHub</div>
+            </nav>
+            <div class="right-options">
+                <div class="Login">Log in</div>
+                <div class="separador">|</div>
+                <div class="contact">Contact us</div>
+            </div>
+        </div>
+    </header> 
+</template>
+
+<style scoped>
+.header {
+    background-color: #181F29;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+
+.nav-item {
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.right-options {
+    display: flex;
+    align-items: right;
+    width: "20%"
+}
+
+.language {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.login,
+.contact {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo-left {
+    margin: 1%;
+}
+
+:root {
+
+---c1c3c9: #C1C3C9;
+---e2e2e2: #E2E2E2;
+---6e7079: #6E7079;
+---363636: #363636;
+---f2f2f2: #F2F2F2;
+---3c3e48: #3C3E48;
+---a51c20: #A51C20;
+---ff0000: #FF0000;
+
+--unnamed-font-family-noto-sans: Noto Sans;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-300: 300px;
+--unnamed-font-weight-900: 900px;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-25: 25px;
+--unnamed-font-size-30: 30px;
+--unnamed-font-size-32: 32px;
+--unnamed-font-size-45: 45px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-36: 36px;
+--unnamed-line-spacing-43: 43px;
+--unnamed-line-spacing-45: 45px;
+--unnamed-line-spacing-64: 64px;
+}
+
+.p1 {
+font-family: var(--unnamed-font-family-noto-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-300);
+font-size: var(--unnamed-font-size-32);
+line-height: var(--unnamed-line-spacing-43);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---363636);
+}
+.p2 {
+font-family: var(--unnamed-font-family-noto-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-25);
+line-height: var(--unnamed-line-spacing-36);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---363636);
+}
+.h2 {
+font-family: var(--unnamed-font-family-noto-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-900);
+font-size: var(--unnamed-font-size-30);
+line-height: var(--unnamed-line-spacing-45);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---363636);
+}
+.h1 {
+font-family: var(--unnamed-font-family-noto-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-900);
+font-size: var(--unnamed-font-size-45);
+line-height: var(--unnamed-line-spacing-64);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---363636);
+}
+
+</style>
