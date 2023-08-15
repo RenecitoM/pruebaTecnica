@@ -2,15 +2,11 @@
   <header class="header">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
-        <div
-          class="logo-left col-2 col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xl-1"
-        >
-          <v-container fluid>
-            <img src="./assets/Logo.png" alt="" class="navbar-brand" />
-          </v-container>
+        <div class="logo-left col-3 col-md-2">
+          <img src="./assets/Logo.png" alt="" class="navbar-brand" />
         </div>
-        <div class="col-5 col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-          <nav class="nav">
+        <div class="col-6 col-md-5">
+          <nav class="nav d-flex justify-content-center">
             <div
               class="nav-item m-3 col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"
             >
@@ -33,9 +29,7 @@
             </div>
           </nav>
         </div>
-        <div
-          class="d-flex align-items-center col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-2"
-        >
+        <div class="d-flex align-items-center col-3 col-md-2">
           <div class="login">Log in</div>
           <div class="contact">| Contact us</div>
           <div class="contact">
@@ -47,7 +41,7 @@
         </div>
       </div>
 
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="col-12 mt-3">
             <div
               class="secondList col-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 mx-3"
             >
