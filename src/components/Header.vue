@@ -1,114 +1,245 @@
 <template>
-    <header class="header">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="logo-left">
-                    <v-container fluid>
-                        <img src="./assets/Logo.png" alt="">
-                    </v-container>
-                </div>
-                <nav class="nav">
-                    <div class="nav-item mx-3">FOREX</div>
-                    <div class="nav-item mx-3">STOCKS</div>
-                    <div class="nav-item mx-3">FUTURES</div>
-                    <div class="nav-item mx-3">TradeGATEHub</div>
-                </nav>
-                <div class="d-flex align-items-end">
-                    <div class="login p-2 ml-auto">Log in</div>
-                    <div class="contact p-2">Contact us</div>
-                </div>
+  <header class="header">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div
+          class="logo-left col-2 col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xl-1"
+        >
+          <v-container fluid>
+            <img src="./assets/Logo.png" alt="" class="navbar-brand" />
+          </v-container>
+        </div>
+        <div class="col-5 col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+          <nav class="nav">
+            <div
+              class="nav-item m-3 col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"
+            >
+              FOREX
+            </div>
+            <div
+              class="nav-item m-3 col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"
+            >
+              STOCKS
+            </div>
+            <div
+              class="nav-item m-3 col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"
+            >
+              FUTURES
+            </div>
+            <div
+              class="nav-item m-3 col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"
+            >
+              TradeGATEHub
+            </div>
+          </nav>
+        </div>
+        <div
+          class="d-flex align-items-center col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-2"
+        >
+          <div class="login">Log in</div>
+          <div class="contact">| Contact us</div>
+          <div class="contact">
+            English
+            <v-container fluid>
+              <img src="./assets/world-wide-web.png" alt="" class="icon" />
+            </v-container>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div
+              class="secondList col-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"
+            >
+              Markets
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+              Company ᵛ
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+              Accounts
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+              Platforms ᵛ
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+              Pricing
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+            Introducing Brokers
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+            Education
+            </div>
+            <div
+              class="secondList m-3 col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"
+            >
+            Support ᵛ
             </div>
         </div>
-    </header>
+      </div>
+  </header>
 </template>
-
 
 <style scoped>
 @font-face {
-    font-family: "Noto Sans";
-    src: url("Noto_Sans/NotoSans-Black.ttf");
+  font-family: "Noto Sans";
+  src: url("Noto_Sans/NotoSans-Black.ttf");
 }
-
 
 .header {
-    background-color: #181F29;
-    color: #fff;
-    background: #181F29; 
-    transition: background 0.5s;
-    position: relative; 
+  background-color: #181f29;
+  color: #fff;
+  animation: dissolveAnimation 5s infinite alternate; /* Ajusta la duración de la animación según necesites */
 }
-
-
+.header-dissolve {
+  background-color: rgba(24, 31, 41, 0.8); /* Ajusta el color y la opacidad */
+  transition: background-color 0.5s;
+}
 .container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0;
-    padding: 10px 20px;
-}
-
-.language {
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.login,
-.contact {
-    margin-right: 20px;
-    cursor: pointer;
+  max-width: 100%;
+  margin: 0;
 }
 
 .logo-left {
-    margin: 1%;
-    margin-right: 10%;
-}
-
-.login, .contact { 
-    margin-right: 20px;
-    cursor: pointer;
+  margin: 1%;
+  display: inline-block;
 }
 
 :root {
-    ---c1c3c9: #C1C3C9;
-    ---e2e2e2: #E2E2E2;
-    ---6e7079: #6E7079;
-    ---363636: #363636;
-    ---f2f2f2: #F2F2F2;
-    ---3c3e48: #3C3E48;
-    ---a51c20: #A51C20;
-    ---ff0000: #FF0000;
+  ---c1c3c9: #c1c3c9;
+  ---e2e2e2: #e2e2e2;
+  ---6e7079: #6e7079;
+  ---363636: #363636;
+  ---f2f2f2: #f2f2f2;
+  ---3c3e48: #3c3e48;
+  ---a51c20: #a51c20;
+  ---ff0000: #ff0000;
 
-    --unnamed-font-family-noto-sans: Noto Sans;
-    --unnamed-font-style-normal: normal;
-    --unnamed-font-weight-300: 300px;
-    --unnamed-font-weight-900: 900px;
-    --unnamed-font-weight-normal: normal;
-    --unnamed-font-size-25: 25px;
-    --unnamed-font-size-30: 30px;
-    --unnamed-font-size-32: 32px;
-    --unnamed-font-size-45: 45px;
-    --unnamed-character-spacing-0: 0px;
-    --unnamed-line-spacing-36: 36px;
-    --unnamed-line-spacing-43: 43px;
-    --unnamed-line-spacing-45: 45px;
-    --unnamed-line-spacing-64: 64px;
+  --unnamed-font-family-noto-sans: Noto Sans;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-300: 300px;
+  --unnamed-font-weight-900: 900px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-25: 25px;
+  --unnamed-font-size-30: 30px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-font-size-45: 45px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-36: 36px;
+  --unnamed-line-spacing-43: 43px;
+  --unnamed-line-spacing-45: 45px;
+  --unnamed-line-spacing-64: 64px;
 }
+
 .h2 {
-    font-family: var(--unnamed-font-family-noto-sans);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-900);
-    font-size: 17px;
-    line-height: var(--unnamed-line-spacing-45);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: #fff
+  font-family: var(--unnamed-font-family-noto-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-900);
+  font-size: 17px;
+  line-height: var(--unnamed-line-spacing-45);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: #fff;
 }
+
 .h1 {
-    font-family: var(--unnamed-font-family-noto-sans);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-900);
-    font-size: var(--unnamed-font-size-45);
-    line-height: var(--unnamed-line-spacing-64);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(---363636);
+  font-family: var(--unnamed-font-family-noto-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-900);
+  font-size: var(--unnamed-font-size-45);
+  line-height: var(--unnamed-line-spacing-64);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(---363636);
+}
+
+.nav-item {
+  top: 49px;
+  left: 555px;
+  width: 55px;
+  height: 22px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900)
+    2px/22px var(--unnamed-font-family-noto-sans);
+  text-align: left;
+  font: normal normal 900 15px/22px Noto Sans;
+  letter-spacing: 4.8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  padding-left: 12%;
+  display: inline-block;
+}
+
+.login {
+  top: 50px;
+  left: 1461px;
+  width: 47px;
+  height: 12px;
+  font: var(--unnamed-font-style-normal) normal medium 16px/22px
+    var(--unnamed-font-family-noto-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal medium 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #c1c3c9;
+  opacity: 1;
+  display: inline-block;
+}
+
+.contact {
+  top: 50px;
+  left: 1461px;
+  width: 87px;
+  height: 12px;
+  font: var(--unnamed-font-style-normal) normal medium 16px/22px
+    var(--unnamed-font-family-noto-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal medium 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #6e7079;
+  opacity: 1;
+  display: inline-block;
+}
+
+.secondList {
+  width: 150px;
+  height: 12px;
+  font: var(--unnamed-font-style-normal) normal medium 16px/22px
+    var(--unnamed-font-family-noto-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal medium 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #c1c3c9;
+  opacity: 1;
+  display: inline-block;
+}
+
+.icon {
+  height: 1em;
+  color: #f2f2f2;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
 }
 </style>
