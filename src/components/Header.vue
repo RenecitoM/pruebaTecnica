@@ -49,7 +49,7 @@
 
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div
-              class="secondList col-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"
+              class="secondList col-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 mx-3"
             >
               Markets
             </div>
@@ -97,16 +97,12 @@
 @font-face {
   font-family: "Noto Sans";
   src: url("Noto_Sans/NotoSans-Black.ttf");
+  src: url("Noto_Sans/NotoSans-Light.ttf");
 }
 
 .header {
   background-color: #181f29;
   color: #fff;
-  animation: dissolveAnimation 5s infinite alternate; /* Ajusta la duración de la animación según necesites */
-}
-.header-dissolve {
-  background-color: rgba(24, 31, 41, 0.8); /* Ajusta el color y la opacidad */
-  transition: background-color 0.5s;
 }
 .container {
   max-width: 100%;
@@ -116,6 +112,21 @@
 .logo-left {
   margin: 1%;
   display: inline-block;
+}
+
+.split-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  width: 45%;
+  background: linear-gradient(to bottom, rgba(24, 31, 41, 1), rgba(24, 31, 41, 0)); /* Ajusta los valores según necesites */
+}
+
+.right-side {
+  width: 55%;
+  background-color: #f2f2f2;
 }
 
 :root {
@@ -172,7 +183,7 @@
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900)
     2px/22px var(--unnamed-font-family-noto-sans);
   text-align: left;
-  font: normal normal 900 15px/22px Noto Sans;
+  font: normal normal 900 14px/22px Noto Sans;
   letter-spacing: 4.8px;
   color: #ffffff;
   text-transform: uppercase;
@@ -214,7 +225,7 @@
 }
 
 .secondList {
-  width: 150px;
+  width: auto;
   height: 12px;
   font: var(--unnamed-font-style-normal) normal medium 16px/22px
     var(--unnamed-font-family-noto-sans);
@@ -225,6 +236,8 @@
   color: #c1c3c9;
   opacity: 1;
   display: inline-block;
+  padding-right: 4%;
+  padding-bottom: 1%;
 }
 
 .icon {
