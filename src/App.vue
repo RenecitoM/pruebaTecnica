@@ -3,6 +3,7 @@
     <Header class="header"></Header>
     <BodyCommuny class="body"></BodyCommuny>
     <cards></cards>
+    <Leading></Leading>
   </div>
 </template>
 
@@ -22,12 +23,14 @@
 import Header from "./components/Header.vue";
 import BodyCommuny from "./components/BodyCommuny.vue";
 import cards from "./components/Cards.vue";
+import Leading from "./components/Leading.vue";
 
 export default {
   components: {
     Header,
     BodyCommuny,
     cards,
+    Leading,
   },
 };
 </script>
