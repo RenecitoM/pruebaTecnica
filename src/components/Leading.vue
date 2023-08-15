@@ -1,24 +1,21 @@
 <template>
-    <div class="body">
-        <div class="left-side">
-            <div col-6 row>
-                <h2 class="title">
-                    Leading Edge Technology
-                </h2>
+    <div class="split-screen">
+        <div class="left-panel">
+            <div class="text-container">
+                <h2 class="title-center">{{ "Leading Edge Technology" }}</h2>
+                <p class="text-start">{{ "Easy to use management tools, our fastest possible execution and spreads as lowas 0.0." }}</p>
+                <p class="text-a">{{ "Quick Guide: CommuniTraders Web User Manual" }}</p>
             </div>
-            <p class="text row">
-                    Easy to use management tools, our fastest possible execution and spreads as low as 0.0.
-                </p>
         </div>
-
-        <div class="right-side">
-
+        <div class="right-panel">
+            <v-container fluid>
+                <img src="./assets/Mask Group 2.png" alt="" class="img" />
+            </v-container>
         </div>
-
     </div>
 </template>
 
-<style scoped>
+<style>
 :root {
     ---c1c3c9: #c1c3c9;
     ---e2e2e2: #e2e2e2;
@@ -45,38 +42,48 @@
     --unnamed-line-spacing-64: 64px;
 }
 
-.left-side {
+.split-screen {
+    display: flex;
     width: 100%;
-    height: 50vh;
-    background-color: #c1c3c9;
+    height: 70vh;
 }
 
-.right-side {
-    width: 45%;
-    height: 100%;
-    background-size: 100%;
-    background-position: center;
-    background-image: url("assets/Mask Group 2.png");
+.left-panel {
+    flex: 1;
+    display: block;
+    justify-content: start;
+    background-color: #f5f5f5;
+    padding-top: 15%;
+    padding-left: 15%;
 }
 
-.title {
+.right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    background-color: #f5f5f5;
+}
+
+.right-panel img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.tittle-center {
     top: 2106px;
     left: 343px;
-    width: 1000px;
+    width: 516px;
     height: 49px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-30)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-noto-sans);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(---363636);
     text-align: left;
-    font: normal normal 900 40px/45px Noto Sans, Black;
+    font: normal normal 900 30px/45px Noto Sans;
     letter-spacing: 0px;
-    color: #000000;
+    color: #363636;
     opacity: 1;
-    padding-top: 10%;
-    padding-left: 10%;
+    display: block;
 }
 
-.text {
+.text-start {
     top: 2177px;
     left: 343px;
     width: 556px;
@@ -89,5 +96,32 @@
     letter-spacing: 0px;
     color: #363636;
     opacity: 1;
+    margin-top: 3%;
+}
+
+.text-a {
+    top: 2177px;
+    left: 343px;
+    width: 556px;
+    height: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-25)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-noto-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---363636);
+    text-align: left;
+    font: normal normal normal 18px/36px Noto Sans;
+    letter-spacing: 0px;
+    color: #363636;
+    opacity: 1;
+    margin-top: 3%;
+    text-decoration: underline;
 }
 </style>
+
+<script>
+export default {
+    props: {
+        leftText: String,
+        imageSrc: String,
+    },
+};
+</script>
