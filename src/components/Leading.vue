@@ -45,7 +45,8 @@
 .split-screen {
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
+    margin-bottom: 10vh;
 }
 
 .left-panel {
@@ -53,15 +54,16 @@
     display: block;
     justify-content: start;
     background-color: #f5f5f5;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 15%;
+    padding-bottom: 10%;
 }
 
 .right-panel {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-bottom: 10%;
     background-color: #f5f5f5;
 }
 

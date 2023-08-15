@@ -4,6 +4,7 @@
     <BodyCommuny class="body"></BodyCommuny>
     <cards></cards>
     <Leading></Leading>
+    <CommuniTraders></CommuniTraders>
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import Header from "./components/Header.vue";
 import BodyCommuny from "./components/BodyCommuny.vue";
 import cards from "./components/Cards.vue";
 import Leading from "./components/Leading.vue";
+import CommuniTraders from "./components/CommuniTraders.vue";
 
 export default {
   components: {
@@ -31,6 +33,7 @@ export default {
     BodyCommuny,
     cards,
     Leading,
+    CommuniTraders,
   },
 };
 </script>
