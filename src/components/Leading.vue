@@ -9,7 +9,7 @@
         </div>
         <div class="right-panel">
             <v-container fluid>
-                <img src="./assets/Mask Group 2.png" alt="" class="img" />
+                <img src="./assets/MaskGroup2.png" alt="" class="img" />
             </v-container>
         </div>
     </div>

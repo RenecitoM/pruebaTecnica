@@ -4,7 +4,7 @@
     <div class="right-side">
       <div class="container-img">
         <v-container fluid>
-          <img src="./assets/Group 30@2x.png" alt="" class="icono" />
+          <img src="./assets/Group302x.png" alt="" class="icono" />
         </v-container>
       </div>
       <div class="line"></div>
@@ -62,7 +62,7 @@
 .left-side {
   width: 45%;
   height: 100%;
-  background-image: url("./assets/Mask Group 1@2x.png");
+  background-image: url("./assets/backPage.png");
   background-size: 100%;
   background-position: center;
 }

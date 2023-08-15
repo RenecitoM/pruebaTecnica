@@ -2,7 +2,7 @@
     <div class="body">
         <div class="card mb-4 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 d-md-block d-lg-inline">
             <div class="card-body">
-                <img src="./assets/Group 2806.png" alt="" class="icono mb-2" />
+                <img src="./assets/Group2806.png" alt="" class="icono mb-2" />
                 <h5 class="title-card">Ideal for Beginner Clients</h5>
                 <p class="card-text">
                     Increase trading volumes as new traders gain comfort by following
@@ -13,7 +13,7 @@
         </div>
         <div class="card mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card-body">
-                <img src="./assets/Group 2816.png" alt="" class="icono mb-2" />
+                <img src="./assets/Group2816.png" alt="" class="icono mb-2" />
                 <h5 class="title-card">Low Barriers to Entry</h5>
                 <p class="card-text">
                     CommuniTraders software is free and clients can start with just a
@@ -23,7 +23,7 @@
         </div>
         <div class="card mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card-body">
-                <img src="./assets/Group 2817.png" alt="" class="icono mb-2" />
+                <img src="./assets/Group2817.png" alt="" class="icono mb-2" />
                 <h5 class="title-card">Simple Interface</h5>
                 <p class="card-text">
                     A simple GUI provides needed features and tools but isn’t bogged
@@ -34,7 +34,7 @@
         </div>
         <div class="card mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card-body">
-                <img src="./assets/Group 2819.png" alt="" class="icono mb-2" />
+                <img src="./assets/Group2819.png" alt="" class="icono mb-2" />
                 <h5 class="title-card">No Long-Term Commitments</h5>
                 <p class="card-text">
                     Clients can easily signup to start, change signal providers, or stop the service. There is no long-term lockup.
@@ -43,7 +43,7 @@
         </div>
         <div class="card mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card-body">
-                <img src="./assets/Group 2821.png" alt="" class="icono mb-2" />
+                <img src="./assets/Group2821.png" alt="" class="icono mb-2" />
                 <h5 class="title-card">Funds Safety</h5>
                 <p class="card-text">
                     CommuniTraders benefits from the same strong regulation and banking partners standalone Tradeview clients enjoy along with transparency and negative balance protection.
@@ -52,7 +52,7 @@
         </div>
         <div class="card mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card-body">
-                <img src="./assets/Group 2823.png" alt="" class="icono mb-2" />
+                <img src="./assets/Group2823.png" alt="" class="icono mb-2" />
                 <h5 class="title-card">Tradeview Runs CommuniTrader</h5>
                 <p class="card-text">
                     You will experience the Tradeview service you know and love, no gimmicks or hidden fees, excellent live customer support, and your dedicated account manager.
