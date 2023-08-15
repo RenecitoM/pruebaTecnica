@@ -17,11 +17,11 @@
       <div class="contenedor-footer col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div class="Broker">
           <p class="asideText col-4">Free Download for Tradeview Users</p>
-          <button class="transparent-button row-1">Mi Botón</button>
+          <button class="transparent-button row-1">Contact your Broker</button>
         </div>
         <div class="Tradeview">
           <p class="asideText2 col-4">Don’t have a Tradeview Account yet?</p>
-          <button class="red-button row-1">Mi Botón Rojo</button>
+          <button class="red-button row-1">Get a Free Demo</button>
         </div>
       </div>
     </div>
@@ -59,7 +59,6 @@
   display: flex;
   height: 85vh;
 }
-
 .left-side {
   width: 45%;
   height: 100%;
@@ -162,7 +161,7 @@
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 5em;
+  margin-left: 3em;
   margin-top: 1em;
 }
 
@@ -173,7 +172,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin-top: 1em;
-  margin-left: 5em;
+  margin-left: 4em;
 }
 
 .contenedor-footer{
